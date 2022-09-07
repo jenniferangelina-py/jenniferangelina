@@ -1,18 +1,62 @@
-.body {
-  width: 1920px;
-  height: 1080px;
+body {
   background: #020207;
+}
+
+a:link, a:visited, a:hover, a:focus, a:active {
+  color: white !important;
+}
+
+.nav-link {
+  font-size: 13px;
+}
+
+.hover1 {
+  border-bottom: 2.5px solid transparent;
+}
+
+.hover1:hover {
+  border-bottom: 2.5px solid #4BB4DE;
+}
+
+.about {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p {
+  margin-bottom: -16px;
 }
 
 .p1 {
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   letter-spacing: 2px;
   font-family: 'Epilogue';
+  letter-spacing: 5px;
+}
+
+.p2 {
+  color: white;
+  font-size: 12.5px;
+  font-family: 'Epilogue';
+  line-height: 4;
+  margin-bottom: 1px;
+}
+
+.p3 {
+  color: white;
+  font-size: 12.5px;
+  font-family: 'Chivo';
 }
 
 .fullname {
   color: #4BB4DE;
   font-size: 40px;
   font-family: 'Playfair Display';
+  word-spacing: 2.5px;
+}
+
+.padding1 {
+  margin-top: 150px;
+  padding-left: 150px;
 }
