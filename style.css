@@ -10,3 +10,9 @@
   letter-spacing: 2px;
   font-family: 'Epilogue';
 }
+
+.fullname {
+  color: #4BB4DE;
+  font-size: 40px;
+  font-family: 'Playfair Display';
+}
