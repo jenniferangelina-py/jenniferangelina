@@ -2,12 +2,16 @@ body {
   background: #020207;
 }
 
-a:link, a:visited, a:hover, a:focus, a:active {
+.active:link, .active:visited, .active:hover, .active:focus, .active:active {
   color: white !important;
 }
 
+.disabled {
+  color: #4BB4DE !important;
+}
+
 .nav-link {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .hover1 {
@@ -18,13 +22,17 @@ a:link, a:visited, a:hover, a:focus, a:active {
   border-bottom: 2.5px solid #4BB4DE;
 }
 
-.about {
-  margin-left: 10px;
+.blue {
+  color: #4BB4DE;
+}
+
+.home {
+  margin-left: 8px;
   margin-right: 10px;
 }
 
-p {
-  margin-bottom: -16px;
+.about, .projects, .resume {
+  margin-right: 10px;
 }
 
 .p1 {
@@ -33,30 +41,83 @@ p {
   letter-spacing: 2px;
   font-family: 'Epilogue';
   letter-spacing: 5px;
+  margin-bottom: -10px;
 }
 
 .p2 {
   color: white;
-  font-size: 12.5px;
+  font-size: 15px;
   font-family: 'Epilogue';
-  line-height: 4;
-  margin-bottom: 1px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .p3 {
-  color: white;
-  font-size: 12.5px;
+  color: #999999;
+  font-size: 15px;
   font-family: 'Chivo';
+}
+
+.p4 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Rubik';
+}
+
+.p5 {
+  color: #B2B2B2;
+  font-family: 'Courier Prime';
+}
+
+.p6 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Rubik';
+}
+
+.p7 {
+  color: #B2B2B2;
+  font-family: 'Courier Prime';
+}
+
+.p8 {
+  color: white;
+  font-size: 15px;
+  font-family: 'Chivo';
+  margin-left: 20px;
 }
 
 .fullname {
   color: #4BB4DE;
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Playfair Display';
   word-spacing: 2.5px;
+  margin-bottom: -15px;
 }
 
 .padding1 {
-  margin-top: 150px;
-  padding-left: 150px;
+  margin-top: 180px;
+  margin-left: 180px;
+}
+
+.padding2 {
+  margin-top: 125px;
+  margin-left: 180px;
+}
+
+.padding3 {
+  margin-top: 100px;
+  margin-left: 500px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.address, .telephone, .email {
+  margin-bottom: 30px;
+}
+
+.a1 {
+  text-decoration: none;
 }
