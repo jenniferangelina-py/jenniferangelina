@@ -48,14 +48,14 @@ body {
   color: white;
   font-size: 15px;
   font-family: 'Epilogue';
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .p3 {
   color: #999999;
   font-size: 15px;
-  font-family: 'Chivo';
+  font-family: 'Courier Prime';
 }
 
 .p4 {
@@ -65,17 +65,6 @@ body {
 }
 
 .p5 {
-  color: #B2B2B2;
-  font-family: 'Courier Prime';
-}
-
-.p6 {
-  color: white;
-  font-size: 30px;
-  font-family: 'Rubik';
-}
-
-.p7 {
   color: #B2B2B2;
   font-family: 'Courier Prime';
 }
@@ -90,8 +79,9 @@ body {
 .fullname {
   color: #4BB4DE;
   font-size: 50px;
-  font-family: 'Playfair Display';
+  font-family: 'Rubik';
   word-spacing: 2.5px;
+  margin-top: 5px;
   margin-bottom: -15px;
 }
 
